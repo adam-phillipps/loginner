@@ -1,0 +1,119 @@
+PATH
+  remote: /Users/adam.phillipps/code/brain_func
+  specs:
+    brain_func (0.1.1)
+      cloud_powers (~> 1.1.1)
+      dotenv (~> 2.1)
+
+PATH
+  remote: /Users/adam.phillipps/code/cloud_powers
+  specs:
+    cloud_powers (1.1.1)
+      activesupport-core-ext (~> 4)
+      aws-sdk (~> 2)
+      dotenv (~> 2.1)
+      httparty (~> 0.14)
+      rubyzip (~> 1.2)
+      websocket-eventmachine-client (~> 1.2.0)
+      websocket-eventmachine-server (~> 1.0.1)
+      workflow (~> 1.2)
+      zip-zip (~> 0.3)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    activesupport-core-ext (4.0.0.3)
+    addressable (2.5.0)
+      public_suffix (~> 2.0, >= 2.0.2)
+    aws-sdk (2.8.14)
+      aws-sdk-resources (= 2.8.14)
+    aws-sdk-core (2.8.14)
+      aws-sigv4 (~> 1.0)
+      jmespath (~> 1.0)
+    aws-sdk-resources (2.8.14)
+      aws-sdk-core (= 2.8.14)
+    aws-sigv4 (1.0.0)
+    byebug (9.0.6)
+    capybara (2.13.0)
+      addressable
+      mime-types (>= 1.16)
+      nokogiri (>= 1.3.3)
+      rack (>= 1.0.0)
+      rack-test (>= 0.5.4)
+      xpath (~> 2.0)
+    childprocess (0.6.3)
+      ffi (~> 1.0, >= 1.0.11)
+    concurrent-ruby (1.0.5)
+    concurrent-ruby-ext (1.0.5)
+      concurrent-ruby (= 1.0.5)
+    diff-lcs (1.3)
+    dotenv (2.2.0)
+    eventmachine (1.2.3)
+    ffi (1.9.18)
+    httparty (0.14.0)
+      multi_xml (>= 0.5.2)
+    jmespath (1.3.1)
+    mime-types (3.1)
+      mime-types-data (~> 3.2015)
+    mime-types-data (3.2016.0521)
+    mini_portile2 (2.1.0)
+    multi_xml (0.6.0)
+    nokogiri (1.7.1)
+      mini_portile2 (~> 2.1.0)
+    public_suffix (2.0.5)
+    rack (2.0.1)
+    rack-test (0.6.3)
+      rack (>= 1.0)
+    rspec (3.5.0)
+      rspec-core (~> 3.5.0)
+      rspec-expectations (~> 3.5.0)
+      rspec-mocks (~> 3.5.0)
+    rspec-core (3.5.4)
+      rspec-support (~> 3.5.0)
+    rspec-expectations (3.5.0)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.5.0)
+    rspec-mocks (3.5.0)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.5.0)
+    rspec-support (3.5.0)
+    rubyzip (1.2.1)
+    selenium-webdriver (3.3.0)
+      childprocess (~> 0.5)
+      rubyzip (~> 1.0)
+      websocket (~> 1.0)
+    site_prism (2.9)
+      addressable (>= 2.3.3, < 3.0)
+      capybara (>= 2.1, < 3.0)
+    websocket (1.2.4)
+    websocket-eventmachine-base (1.2.0)
+      eventmachine (~> 1.0)
+      websocket (~> 1.0)
+      websocket-native (~> 1.0)
+    websocket-eventmachine-client (1.2.0)
+      websocket-eventmachine-base (~> 1.0)
+    websocket-eventmachine-server (1.0.1)
+      websocket-eventmachine-base (~> 1.0)
+    websocket-native (1.0.0)
+    workflow (1.2.0)
+    xpath (2.0.0)
+      nokogiri (~> 1.3)
+    zip-zip (0.3)
+      rubyzip (>= 1.0.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  brain_func!
+  byebug
+  capybara
+  cloud_powers!
+  concurrent-ruby
+  concurrent-ruby-ext
+  rspec
+  selenium-webdriver
+  site_prism
+
+BUNDLED WITH
+   1.14.6
